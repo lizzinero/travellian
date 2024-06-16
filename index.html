@@ -11,6 +11,7 @@
     <div class="hero_section">
         <header class="header">
             <a href="#" class="logo_link"><img class="logo" src="./assets/images/logo.svg" alt=""></a>
+            
             <nav class="nav">
                 <a class="nav_link" href="">Home</a>
                 <a class="nav_link" href="">Explore</a>
@@ -21,6 +22,9 @@
             <div class="box-button">
                 <button class="button" id="login">Login</button>
                 <button class="button" id="sign_up">Sign up</button>
+            </div>
+            <div class="hamburger-menu">
+                <img class="hamburger" src="./assets/images/hamburger.svg" alt="">
             </div>
         </header>
         <div class="container">
@@ -53,63 +57,68 @@
                 <label class="label_check_out" for="check_out">CHECK OUT</label>
                 <input class="input_check_out" type="date" id="check_out" value="2020-10-17">
 
-                <button class="button" id="book_now">Book <br>Now <img src="./assets/images/arrow1.svg" alt=""></button>
+                <button class="button" id="book_now">Book <br>Now</button>
             </div>
+            
         </div>
     </div>
     <main class="main">
         <div class="container-2">
-            <div class="main-box">
-                <h2 class="main-title">Popular Destinations</h2>
-                <div class="line"></div>
-                <p class="main-subtitle">Most popular destinations around the world, from historical places to natural wonders.</p>
+            <div class="destinations-box">
+                <div class="main-box">
+                    <h2 class="main-title">Popular Destinations</h2>
+                    <div class="line_1"></div>
+                    <p class="main-subtitle">Most popular destinations around the world, from historical places to natural wonders.</p>
+                </div>
+                <div class="main-gallery">
+                    <div class="gallery_berlin">
+                        <p class="headline">Monument of Berlin</p>
+                        <p class="geo"><img class="location" src="./assets/images/location1.svg" alt="">Berlin, Germany</p>
+                    </div>
+                    <div class="gallery_london">
+                        <p class="headline">Millennium Bridge</p>
+                        <p class="geo"><img class="location" src="./assets/images/location1.svg" alt="">London, United Kingdom</p>
+                    </div>
+                    <div class="gallery_venice">
+                        <p class="headline">Rialto Bridge</p>
+                        <p class="geo"><img class="location" src="./assets/images/location1.svg" alt="">Venice, Italy</p>
+                    </div>
+                </div>
             </div>
-            <div class="main-gallery">
-                <div class="gallery_berlin">
-                    <p class="headline">Monument of Berlin</p>
-                    <p class="geo"><img class="location" src="./assets/images/location1.svg" alt="">Berlin, Germany</p>
+            <div class="offer-box">
+                <div class="main-offer">
+                    <h2 class="title-offer">Special Offer</h2>
+                    <div class="line_2"></div>
+                    <p class="subtitle-offer">Check out our special offer and discounts</p>
                 </div>
-                <div class="gallery_london">
-                    <p class="headline">Millennium Bridge</p>
-                    <p class="geo"><img class="location" src="./assets/images/location1.svg" alt="">London, United Kingdom</p>
-                </div>
-                <div class="gallery_venice">
-                    <p class="headline">Rialto Bridge</p>
-                    <p class="geo"><img class="location" src="./assets/images/location1.svg" alt="">Venice, Italy</p>
-                </div>
-            </div>
-            <div class="main-offer">
-                <h2 class="title-offer">Special Offer</h2>
-                <div class="line"></div>
-                <p class="subtitle-offer">Check out our special offer and discounts</p>
-            </div>
-            <div class="gallery-offer">
-                <div class="offer_portugal">
-                    <img class="img_offer" src="./assets/images/portugal.jpg" alt="">
-                    <p class="headline_offer">Lisbon, Portugal</p>
-                    <img class="rating" src="./assets/images/rating.svg" alt="">
-                    <p class="text_offer">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
-                    <p class="from">From</p>
-                    <p class="cost">€500</p>
-                    <button class="button" id="details">Details</button>
-                </div>
-                <div class="offer">
-                    <img class="img_offer" src="./assets/images/greece.jpg" alt="">
-                    <p class="headline_offer">Athens, Greece</p>
-                    <img class="rating" src="./assets/images/rating.svg" alt="">
-                    <p class="text_offer">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
-                    <p class="from">From</p>
-                    <p class="cost">€800</p>
-                    <button class="button" id="details">Details</button>
-                </div>
-                <div class="offer">
-                    <img class="img_offer" src="./assets/images/italy.jpg" alt="">
-                    <p class="headline_offer">Rome, Italy</p>
-                    <img class="rating" src="./assets/images/rating.svg" alt="">
-                    <p class="text_offer">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
-                    <p class="from">From</p>
-                    <p class="cost">€750</p>
-                    <button class="button" id="details">Details</button>
+                <div class="gallery-offer">
+                    <div class="offer portugal">
+                        <img class="img_offer" src="./assets/images/portugal.jpg" alt="">
+                        <p class="headline_offer">Lisbon, Portugal</p>
+                        <img class="rating" src="./assets/images/rating.svg" alt="">
+                        <p class="text_offer">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
+                        <p class="from">From</p>
+                        <p class="cost">€500</p>
+                        <button class="button details">Details</button>
+                    </div>
+                    <div class="offer greece">
+                        <img class="img_offer" src="./assets/images/greece.jpg" alt="">
+                        <p class="headline_offer">Athens, Greece</p>
+                        <img class="rating" src="./assets/images/rating.svg" alt="">
+                        <p class="text_offer">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
+                        <p class="from">From</p>
+                        <p class="cost">€800</p>
+                        <button class="button details">Details</button>
+                    </div>
+                    <div class="offer italy">
+                        <img class="img_offer" src="./assets/images/italy.jpg" alt="">
+                        <p class="headline_offer">Rome, Italy</p>
+                        <img class="rating" src="./assets/images/rating.svg" alt="">
+                        <p class="text_offer">5 nights and 4 days in 5 star hotel, breakfast and lunch included. Very popular during the renaissance. Passage and going through the cites of the world in classical literature.</p>
+                        <p class="from">From</p>
+                        <p class="cost">€750</p>
+                        <button class="button details">Details</button>
+                    </div>
                 </div>
             </div>
         </div>
